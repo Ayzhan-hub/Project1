@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="./img/Logo.png" alt="логотип" />
+      </div>
+
+      <button class="burger" id="burger-toggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="header__nav" id="mobile-nav">
+        <div class="header__nav__a">
+          <a href="#" class="header__link">Course topics</a>
+          <a href="#" class="header__link">What students say</a>
+        </div>
+        <div class="header__nav__b">
+          <a href="#" class="header__link">Sign in</a>
+          <a href="#" class="header__cta">Get started</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="hero-wrapper">
+      <section class="hero">
+        <div class="hero__text-content">
+          <h1 class="hero__title">Learn no-code tools today.</h1>
+          <p class="hero__description">
+            Create beautiful webflow sites with flowbase. Clone for free and get
+            started building a site today.
+          </p>
+          <a class="hero__cta" href="#">Get started</a>
+          <div class="hero__avatars-note">
+            <div class="hero__avatars">
+              <img src="./img/Oval4.png" alt="Student 1" class="hero__avatar" />
+              <img src="./img/Oval5.png" alt="Student 2" class="hero__avatar" />
+              <img src="./img/Oval6.png" alt="Student 3" class="hero__avatar" />
+            </div>
+            <p class="hero__note">
+              Join over
+              <strong class="hero__note-strong">4.000+</strong> students
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="hero__media">
+        <div class="hero__media-button">
+          <span class="hero__media-icon">&#9658;</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-parent">
+      <section class="stats">
+        <div class="stats__item">
+          <span class="stats__number">12,201</span> happy students
+        </div>
+        <div class="stats__item">
+          <span class="stats__number">3,291</span> lectures
+        </div>
+        <div class="stats__item">
+          <span class="stats__number">1,291</span> 5 star reviews
+        </div>
+      </section>
+    </div>
+
+    <div class="stats-parent">
+      <section class="features">
+        <h2 class="features__title">What you’ll learn</h2>
+        <p class="features__subtitle">
+          Create beautiful Webflow sites with Flowbase. Clone for free and get
+          started building a site today.
+        </p>
+        <ul class="features__list">
+          <li class="features__item">
+            <div class="features__item-top">
+              <img
+                src="./img/icon1.png"
+                alt="User data icon"
+                class="features__icon"
+              />
+              <div class="features__text">
+                <h3 class="features__item-title">Analyzing User Data</h3>
+                <p class="features__item-desc">
+                  Who are you developing for? How will they use your design?
+                  Building user personas can answer these.
+                </p>
+              </div>
+              <div class="features__badge">6 videos | 4.5 hours</div>
+            </div>
+          </li>
+          <li class="features__item">
+            <div class="features__item-top">
+              <img src="./img/icon1.png" alt="Icon" class="features__icon" />
+              <div class="features__text">
+                <h3 class="features__item-title">User Persona</h3>
+                <p class="features__item-desc">
+                  Who are you developing for? How will they use your design?
+                  Building user personas can answer these.
+                </p>
+              </div>
+              <div class="features__badge">6 videos | 4.5 hours</div>
+            </div>
+          </li>
+          <li class="features__item">
+            <div class="features__item-top">
+              <img src="./img/icon1.png" alt="Icon" class="features__icon" />
+              <div class="features__text">
+                <h3 class="features__item-title">Prototyping</h3>
+                <p class="features__item-desc">
+                  Who are you developing for? How will they use your design?
+                  Building user personas can answer these.
+                </p>
+              </div>
+              <div class="features__badge">6 videos | 4.5 hours</div>
+            </div>
+          </li>
+          <li class="features__item">
+            <div class="features__item-top">
+              <img src="./img/icon1.png" alt="Icon" class="features__icon" />
+              <div class="features__text">
+                <h3 class="features__item-title">Storyboarding</h3>
+                <p class="features__item-desc">
+                  Who are you developing for? How will they use your design?
+                  Building user personas can answer these.
+                </p>
+              </div>
+              <div class="features__badge">6 videos | 4.5 hours</div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="instructor">
+      <div class="instructor__text">
+        <h2 class="instructor__title">
+          Hi, I am David, your course instructor.
+        </h2>
+        <p class="instructor__desc">
+          Create beautiful Webflow sites with Flowbase. Clone for free and get
+          started building a site today.
+        </p>
+      </div>
+      <div class="instructor__photo">
+        <img src="./img/Instructor.png" alt="Instructor" />
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="testimonials__text">
+        <h2 class="testimonials__title">What my students say</h2>
+        <p class="testimonials__desc">
+          Create custom landing pages with Shades that convert more visitors
+          than any website—no coding required.
+        </p>
+      </div>
+
+      <div class="testimonials__list">
+        <blockquote class="testimonial">
+          <p class="testimonial__text">
+            “I waited to completely finish the course to rate it. This was my
+            first approach to python, i am an excel and VBA user. The professor
+            has an excellent way to explain it and a lot or order and
+            organization. I really recommend it.”
+          </p>
+          <footer class="testimonial__author">
+            <img
+              src="./img/Oval.png"
+              alt="Annie Reyes"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__author-info">
+              Henk Fortuin <br />
+              <span class="testimonial__author-desc">Founder of Crips</span>
+            </div>
+          </footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p class="testimonial__text">
+            “I waited to completely finish the course to rate it. This was my
+            first approach to python, i am an excel and VBA user. The professor
+            has an excellent way to explain it and a lot or order and
+            organization. I really recommend it.”
+          </p>
+          <footer class="testimonial__author">
+            <img
+              src="./img/Oval2.png"
+              alt="Annie Reyes"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__author-info">
+              Opi Watihana <br />
+              <span class="testimonial__author-desc">Founder of Crips</span>
+            </div>
+          </footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p class="testimonial__text">
+            “I waited to completely finish the course to rate it. This was my
+            first approach to python, i am an excel and VBA user. The professor
+            has an excellent way to explain it and a lot or order and
+            organization. I really recommend it.”
+          </p>
+          <footer class="testimonial__author">
+            <img
+              src="./img/Oval3.png"
+              alt="Annie Reyes"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__author-info">
+              Annie Reyes <br />
+              <span class="testimonial__author-desc">Founder of Crips</span>
+            </div>
+          </footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p class="testimonial__text">
+            “I waited to completely finish the course to rate it. This was my
+            first approach to python, i am an excel and VBA user. The professor
+            has an excellent way to explain it and a lot or order and
+            organization. I really recommend it.”
+          </p>
+          <footer class="testimonial__author">
+            <img
+              src="./img/Oval2.png"
+              alt="Annie Reyes"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__author-info">
+              Annie Reyes <br />
+              <span class="testimonial__author-desc">Founder of Crips</span>
+            </div>
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="faq">
+      <h2 class="faq__title">Frequently asked questions</h2>
+      <details class="faq__item">
+        <summary class="faq__question">
+          Will I get full access to the course after purchasing?
+          <span class="faq__icon">
+            <svg
+              class="faq__arrow"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </span>
+        </summary>
+        <p class="faq__answer">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+          skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+          Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+          single-origin coffee nulla assumenda shoreditch et. Nihil anim
+          keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+          sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+          occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+          you probably haven't heard of them accusamus labore sustainable VHS.
+        </p>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__question">
+          Do you give money back guarantee?
+          <span class="faq__icon">
+            <svg
+              class="faq__arrow"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </span>
+        </summary>
+        <p class="faq__answer">Yes! We offer a 30-day money-back guarantee.</p>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__question">
+          Do you offer a discount?
+          <span class="faq__icon">
+            <svg
+              class="faq__arrow"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </span>
+        </summary>
+        <p class="faq__answer">
+          Discounts are occasionally available during promotional periods.
+        </p>
+      </details>
+    </section>
+
+    <section class="cta">
+      <p class="cta__guarantee">Get 30 Days Money Back Guarantee</p>
+      <h2 class="cta__title">Ready to learn UX Design from the expert?</h2>
+      <a class="cta__button" href="#">Get started</a>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__top">
+        <img class="footer__logo-img" src="./img/Logo.png" alt="логотип" />
+        <div class="subscribe">
+          <input
+            type="email"
+            class="subscribe__input"
+            placeholder="Stay in the loop – sign up with your email"
+          />
+          <button class="subscribe__button">Subscribe</button>
+        </div>
+      </div>
+
+      <div class="footer__cols">
+        <div class="footer__col">
+          <span class="footer__menu">Help Menu</span>
+          <ul>
+            <li>About</li>
+            <li>Features</li>
+            <li>Career</li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <span class="footer__menu">Pro</span>
+          <ul>
+            <li>Support</li>
+            <li>Terms</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <span class="footer__menu">Product</span>
+          <ul>
+            <li>Landing Page</li>
+            <li>Dashboard Pro</li>
+            <li>Admin Kit</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span class="footer__copyright">© 2025 All rights reserved.</span>
+      </div>
+    </footer>
+  </body>
+  <script>
+    const burger = document.getElementById("burger-toggle");
+    const nav = document.getElementById("mobile-nav");
+
+    burger.addEventListener("click", () => {
+      nav.classList.toggle("active");
+      burger.classList.toggle("open");
+    });
+  </script>
+</html>
